@@ -18,6 +18,8 @@ I decided on using data from four different categories:
 
 Each category lists out the appropriate shows/movies based on live user data.
 
+![](https://puu.sh/toaf9/9d07f95698.png)
+
 A show/movie is considered "Trending" based on the total amount of people who are currently "checked in" on the show/movie's page. The "checked in" status remains for the entire length of the total runtime for the show/movie.
 
 A show/movie is considered "Most Anticipated" based on the total amount of people who have added that particular show/movie onto their "watchlist". 
@@ -34,6 +36,8 @@ As for movies, the pattern is as follows:
 - Spaces are replaced by dashes
 - Special characters are deleted
 - The release year of the movies are included at the end of the URL
+
+![](https://puu.sh/toamY/27c40c3bdc.png)
 
 The detail views of each show/movie include publicly available data such as title, release year, description, genre, runtime, country, and language. A detail page for an upcoming movie would not always have a runtime length or genre available yet, since the movie may not be released until the following year. This program was written to adjust for these discrepancies by first listing out the most commonly available detail categories before listing out the variable details.
 
