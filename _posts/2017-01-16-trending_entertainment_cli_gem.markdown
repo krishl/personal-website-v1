@@ -10,7 +10,7 @@ This ruby gem lists all currently trending shows and movies along with their res
 When first approaching this project, I first thought if any of my most commonly visited websites were suitable for this project. I decided on basing this project on data from a website called Trakt.tv, which helps users keep track of movies and shows that they are currently watching or have watched in the past.
 
 I decided on using data from four different categories:
-- Currently Trending Shows
+- Currently Trending Shows 
 - Most Anticipated Upcoming Shows
 - Currently Trending Movies
 - Most Anticipated Upcoming Movies
