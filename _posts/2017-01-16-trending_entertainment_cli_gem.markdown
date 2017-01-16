@@ -5,7 +5,7 @@ date:   2017-01-16 06:10:38 -0500
 ---
 
 
-This ruby gem lists all currently trending shows and movies along with their respective details based on real-time check-in data from Trakt.tv.
+This Ruby gem lists all currently trending shows and movies along with their respective details based on real-time check-in data from Trakt.tv.
 
 When first approaching this project, I first thought if any of my most commonly visited websites were suitable for this project. I decided on basing this project on data from a website called Trakt.tv, which helps users keep track of movies and shows that they are currently watching or have watched in the past.
 
@@ -39,7 +39,7 @@ As for movies, the pattern is as follows:
 
 ![](https://puu.sh/toamY/27c40c3bdc.png)
 
-The detail views of each show/movie include publicly available data such as title, release year, description, genre, runtime, country, and language. A detail page for an upcoming movie would not always have a runtime length or genre available yet, since the movie may not be released until the following year. This program was written to adjust for these discrepancies by first listing out the most commonly available detail categories before listing out the variable details.
+The detail views of each show/movie include publicly available data such as title, release year, description, genre, runtime, country, and language. A detail page for an upcoming movie may not always have a runtime length or genre available yet, since the movie may not be released until the following year (or longer). This program was written to adjust for these discrepancies by first listing out the most commonly available detail categories before listing out the variable details.
 
 A short video demo of this gem can be viewed [here](https://youtu.be/X9BYQKib76E).
 
