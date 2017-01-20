@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Tea Tracker"
-date:   2017-01-20 12:36:23 +0000
+title:  "Tea Tracker - Sinatra Project"
+date:   2017-01-20 07:36:24 -0500
 ---
 
 
