@@ -15,6 +15,8 @@ User-owned teas, as well as all of the teas submitted onto the website, are list
 
 On the user's tea list page, the purchase date is listed along with the tea's name if it was provided. Older teas lose their flavor over time, and this functionality makes it easier to prioritize the consumption of older tea.
 
+## Workflow
+
 This project was designed according to the MVC (model-view-controller) design pattern. This project has two models: a `User` model and a `Tea` model. Btoh models inherit from `ActiveRecord::Base`. A user `has_many` teas, and tea `belongs_to` user. To faciliate this relationship, the database entry for the `teas` table contains the foreign key of `user_id`.
 
 I began working on the `User` model first, since it is the primary table in this database and is encountered first on the home page of this project. User information is validated for uniqueness and prescence, and passwords are encrypted using `bcrypt` and are authenticated to make sure user logins are valid. After completing the various routes such as register, login, logout, and the user's show page, I worked on the routes regarding the `Tea` model. The teas controller follows CRUD (create, read, update, delete) functionality. Routes have their corresponding view pages, and also provide helper error messages whenever a user sends invalid information.
