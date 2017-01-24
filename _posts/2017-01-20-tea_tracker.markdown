@@ -15,7 +15,7 @@ User-owned teas, as well as all of the teas submitted onto the website, are list
 
 On the user's tea list page, the purchase date is listed along with the tea's name if it was provided. Older teas lose their flavor over time, and this functionality makes it easier to prioritize the consumption of older tea.
 
-## Workflow
+# Workflow
 
 This project was designed according to the MVC (model-view-controller) design pattern. This project has two models: a `User` model and a `Tea` model. Btoh models inherit from `ActiveRecord::Base`. A user `has_many` teas, and tea `belongs_to` user. To faciliate this relationship, the database entry for the `teas` table contains the foreign key of `user_id`.
 
