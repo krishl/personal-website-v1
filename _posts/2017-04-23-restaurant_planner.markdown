@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Restaurant Planner"
-date:   2017-04-23 03:19:01 +0000
+date:   2017-04-22 23:19:02 -0400
 ---
 
 
@@ -33,6 +33,7 @@ resources :users, only: [:show] do
     get '/under_ten' => 'static#under_ten'
   end
 	```
+	
 	
 The Devise gem was used to handle user authentication, and users are also able to log in via GitHub.
 
