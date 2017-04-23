@@ -19,22 +19,6 @@ I approached this project with four models in mind: a `Users` model, a `Foods` m
 
 When setting up my routes, I decided to branch all pages off of `users`.
 
-
-```
-resources :users, only: [:show] do
-    resources :restaurants
-    resources :foods
-    get '/manhattan' => 'static#manhattan'
-    get '/brooklyn' => 'static#brooklyn'
-    get '/queens' => 'static#queens'
-    get '/bronx' => 'static#bronx'
-    get '/staten_island' => 'static#staten_island'
-    get '/outside_nyc' => 'static#outside_nyc'
-    get '/under_ten' => 'static#under_ten'
-  end
-	```
-	
-	
 The Devise gem was used to handle user authentication, and users are also able to log in via GitHub.
 
 I followed MVC and used CRUD methods throughout this project. The third-level nested attribute in my forms gave me some problems, but they were solved by writing out methods that manually created and saved these attributes. I noticed many of my scoped views were very similar to each other, so I used partials and passed through the necessary variables through them to keep the code functional and DRY. Validations and checks were also implemented to avoid invalid data and to prevent users from viewing and manipulating another user's entries.
