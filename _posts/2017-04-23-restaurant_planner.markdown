@@ -21,6 +21,6 @@ When setting up my routes, I decided to branch all pages off of `users`.
 
 The Devise gem was used to handle user authentication, and users are also able to log in via GitHub.
 
-I followed MVC and used CRUD methods throughout this project. The third-level nested attribute in my forms gave me some problems, but they were solved by writing out methods that manually created and saved these attributes. I noticed many of my scoped views were very similar to each other, so I used partials and passed through the necessary variables through them to keep the code functional and DRY. Validations and checks were also implemented to avoid invalid data and to prevent users from viewing and manipulating another user's entries.
+I followed MVC and used CRUD methods throughout this project. The third-level nested attribute in my forms gave me some problems, but they were solved by writing out methods that manually created and saved these attributes. Differences in Rails 5 also required me to add extra specifics. I noticed many of my scoped views were very similar to each other, so I used partials and passed through the necessary variables through them to keep the code functional and DRY. Validations and checks were also implemented to avoid invalid data and to prevent users from viewing and manipulating another user's entries.
 
 The repository for this project can be found [here](https://github.com/krishl/restaurant-planner).
