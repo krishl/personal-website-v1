@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Jquery Restaurant Planner
-date:   2017-05-17 10:50:21 +0000
+date:   2017-05-17 06:50:22 -0400
 ---
 
 
@@ -31,4 +31,4 @@ restaurant.restaurant_foods.forEach(function(restaurant_food, i) {
 
 Since I wanted the price to automatically be correctly formatted as currency, I decided to use the [accounting.js library](http://openexchangerates.github.io/accounting.js) in order to use its `formatMoney()` method.
 
-The next task at hand was to add the ability to create a new Restaurant entry and a new Food entry from the User Show page. Since this single page had two forms doing very similar things, The main challenge of this was to keep everything extremely organized, especially the class and id names for the various html tags. I also added a few div toggles so that only relevant divs are displayed to the user. I never had truly seen the importance of assigning classes and id's until now.
+The next task at hand was to add the ability to create a new Restaurant entry and a new Food entry from the User Show page. Since this single page had two forms doing very similar things, The main challenge of this was to keep everything extremely organized, especially the class and id names for the various html tags. I also added a few div toggles so that only relevant divs are displayed to the user. I never had truly seen the importance of assigning classes and ids until now.
