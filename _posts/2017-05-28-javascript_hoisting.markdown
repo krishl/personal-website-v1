@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Javascript Hoisting
-date:   2017-05-28 07:09:45 +0000
+date:   2017-05-28 03:09:46 -0400
 ---
 
 
@@ -78,4 +78,4 @@ Following all of the rules to hoisting, Javascript will actually read the code s
 })();
 ```
 
-The function declaration gets hoisted up first, followed by the variable declarations, and lastly the variable initializations.
+The function declaration gets hoisted up first, followed by the variable declarations, and lastly the variable initializations, all while maintaining their current scope.
