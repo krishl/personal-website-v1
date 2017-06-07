@@ -5,7 +5,7 @@ date:   2017-01-16 05:22:31 -0500
 ---
 
 
-Writing code is something I've experienced and enjoyed since the early years of my life. In elementary school, I only saw it as a hobby. It was very easy and fun that I thought anybody was able to do it. I started out by designing custom web pages or layouts on my most frequented websites using HTML and CSS. Creating web pages at the time was simply a creative outlet for me where I got to make pages on the computer appear the way I wanted them to appear. I also had mastered Photoshop techniques shortly after by fulfilling approximately 1,206 user requests during my years in Junior High on a forum that I used to frequent, just so that I would be able to add even more to my web pages.
+Writing code is something I've experienced and enjoyed since the early years of my life. In elementary school, I only saw it as a hobby. It was very easy and fun that I thought anybody was able to do it. I started out by designing custom web pages or layouts on my most frequented websites using HTML and CSS. Creating web pages at the time was simply a creative outlet, where I got to make pages on the computer appear the way I wanted them to appear. I also had mastered Photoshop techniques shortly after by fulfilling approximately 1,500 user requests during my years in Junior High on a forum that I used to frequent, just so that I would be able to add even more to my web pages.
 
 Years later, I revisited this hobby while in college by taking elective courses in introductory C++ and Python.
 
