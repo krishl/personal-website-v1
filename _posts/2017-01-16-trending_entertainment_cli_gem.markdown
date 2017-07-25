@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Trending Entertainment CLI Gem"
+title:  "Potatotainment"
 date:   2017-01-16 06:10:38 -0500
 ---
 
@@ -41,7 +41,7 @@ As for movies, the pattern is as follows:
 
 The detail views of each show/movie include publicly available data such as title, release year, description, genre, runtime, country, and language. A detail page for an upcoming movie may not always have a runtime length or genre available yet, since the movie may not be released until the following year (or longer). This program was written to adjust for these discrepancies by first listing out the most commonly available detail categories before listing out the variable details.
 
-A short video demo of this gem can be viewed [here](https://youtu.be/X9BYQKib76E).
+A short video demo of this gem can be viewed [here](https://youtu.be/WzMI70dfPSE).
 
 The repository for this gem can be found [here](https://github.com/krishl/trending-entertainment-cli-app).
 
