@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Tea Tracker - Sinatra Project"
+title:  "Brewteaful"
 date:   2017-01-20 07:36:24 -0500
 ---
 
 
-This is an tool designed for tea lovers who would like an easier way to keep track of all the different kinds of tea that they own. Use this tool to record important tea brewing information such as: `brewing time`, `brewing temperature`, `purchase date`, and `measurements`. Also, discover new teas by viewing the latest submissions of fellow users.
+Brewteaful is a tool designed for tea lovers who would like an easier way to keep track of all the different kinds of tea that they own. Use this tool to record important tea brewing information such as: `brewing time`, `brewing temperature`, `purchase date`, and `measurements`. Also, discover new teas by viewing the latest submissions of fellow users.
 
 ![](https://puu.sh/tsP2u/40a04c7af6.png)
 
