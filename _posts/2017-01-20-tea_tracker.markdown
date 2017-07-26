@@ -9,7 +9,7 @@ Brewteaful is a tool designed for tea lovers who would like an easier way to kee
 
 ![](https://puu.sh/tsP2u/40a04c7af6.png)
 
-User-owned teas, as well as all of the teas submitted onto the website, are listed out neatly on their individual pages for quick readablilty. New entries get added onto the top of the list on the main index page, since it is a list of most recently submitted teas. Users are able to add an infinite amount of teas to their account; however, the amount of recent teas viewable on the index page is limited to 15 to avoid page congestion.
+User-owned teas, as well as all of the teas submitted onto the website, are listed out neatly on their respective pages for quick readablilty. New entries get added onto the top of the list on the main index page, since it is a list of most recently submitted teas. Users are able to add an infinite amount of teas to their account; however, the amount of recent teas viewable on the index page is limited to 15 to avoid page congestion.
 
 ![](https://puu.sh/tsPTa/77b6c1e23f.png)
 
