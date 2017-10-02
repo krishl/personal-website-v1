@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Call Stack"
-date:   2017-10-02 03:41:28 +0000
+date:   2017-10-01 23:41:29 -0400
 ---
 
 
