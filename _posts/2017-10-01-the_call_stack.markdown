@@ -25,7 +25,7 @@ end
 shoes("boots")
 ```
 
-When `shoes("boots")` gets called, the computer allocates a box of memory for the function. Let's pretend this box is an blank sheet of paper. Next, the variable `kind` is set to `boots`. Now, the blank sheet of paper has the words `kind: boots`. This saves in memory and now the sheet of paper is placed on the table to begin the stack.
+When `shoes("boots")` gets called, the computer allocates a box of memory for the function. Let's pretend this box is a blank sheet of paper. Next, the variable `kind` is set to `boots`. Now, the blank sheet of paper has the words `kind: boots`. This saves in memory and now the sheet of paper is placed on the table to begin the stack.
 
 Next, the computer references that first sheet of paper saved in memory and prints out `I will wear boots today.`
 
