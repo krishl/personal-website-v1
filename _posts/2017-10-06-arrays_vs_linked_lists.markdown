@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Arrays vs Linked Lists"
-date:       2017-10-06 05:03:25 +0000
+date:       2017-10-06 01:03:25 -0400
 permalink:  arrays_vs_linked_lists
 ---
 
