@@ -12,5 +12,3 @@ While building a website, it is important to consider how it will look and behav
 Another factor to keep note of is are the different browsers that users are able to use. All browsers handle code differently.
 
 There are an infinite amount of browsers, but the main ones that are most often taken into consideration are Google Chrome, Mozilla Firefox, Internet Explorer, Safari, Microsoft Edge, and Opera. It is generally advised to support the last 2 or 3 major versions of all 6 browsers as a front end developer.
-
-**Media Queries** are utilized within CSS to guide the browser on how and what to display in specific situations. Media queries are based on the user's resolution.
