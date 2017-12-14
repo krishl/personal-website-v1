@@ -18,30 +18,30 @@ Once the files were generated, I installed Django REST Framework using pip3 and 
 
 Django has the ability to hold multiple apps in a single application. I created the initial app files using `python3 manage.py startapp api`, and also added it into the `INSTALLED_APPS` section in my settings.py.
 
-WRITING TESTS
+- WRITING TESTS
 
 The first step of test-driven development is to write tests. I tested the `Customer` model and the `Product` model for `create` (POST request), `get` (GET request), `update` (PUT/PATCH request), and `delete` (DELETE request) functionality.
 
 
-DEFINING THE MODELS
+- DEFINING THE MODELS
 
 Inside `models.py`, I defined three models: `Customer`, `Product`, and `Cart`. A Customer has a first_name and a last_initial. A Product has a name and a description. Cart has a one-to-one relationship with Customers, and a many-to-many relationship with Products.
 
 Once I had completed defining the models, I created a new migration using `python3 manage.py makemigrations` and migrated it with `python3 manage.py migrate`. 
 
-CREATING THE SERIALIZERS
+- CREATING THE SERIALIZERS
 
 The main purpose of serializers is to translate the data obtained from the database into a more readable formats, such as JSON. I used `ModelSerializer` to help create appropriate serializers according to what is defined in my models.
 
-IMPLEMENTING THE VIEWS
+- IMPLEMENTING THE VIEWS
 
 I used `ListCreateAPIView` and `RetrieveUpdateDestroyAPIView` from the generic views provided by Django REST Framework. ListCreateAPIView provides the GET and POST method handlers, while RetrieveUpdateDestroyAPIView provides GET, PUT, PATCH, and DELETE method handlers. They also provide useful save and deletion hooks such as `perform_create` and `perform_update`. I specified the queryset and serializer for each view.
 
-DEFINING THE URL ENDPOINTS
+- DEFINING THE URL ENDPOINTS
 
 I defined the URL endpoints inside my app's `urls.py`, giving each endpoint a name so that tests are able to access it. Lastly, I added the urls.py file onto the main project's urls.py file.
 
-CHALLENGES FACED
+- CHALLENGES FACED
 
 While working through this project, I came across difficulties with adding and removing products to a customer's cart. I thought of many ways to achieve this functionality. One way of going about this was to create an intermediary model called `CartProduct` and give it attributes of `product_id`, `cart_id`, and `quantity`. It would change the relationship between Cart and Products by acting as a `through` model. In this approach, I had difficulties retrieving cart_id and product_id. I believe it can be accessed via the URL, but the nesting made it difficult. Another approach I had to this problem was to use a dictionary to store the quantity. This method would remove the need for the intermediary model of `CartProduct`. I pictured the cart to be structured like this for this approach:
 
@@ -61,7 +61,7 @@ While working through this project, I came across difficulties with adding and r
 
 I tried writing functions to achieve this approach, but encountered errors regarding the inability to directly write over specific fields. The error messages suggested I use methods such as `.get()` and `.set()`.
 
-CONCLUSION
+- CONCLUSION
 
 Overall, this was a great learning experience. I enjoyed building out the app from scratch. This enabled me to learn more about the building blocks of Django as the project was forming. I still need to work on learning more of Django methods, since it seems like there are a lot available that help streamline development. 
 
