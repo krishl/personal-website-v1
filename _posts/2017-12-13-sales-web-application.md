@@ -6,7 +6,7 @@ permalink:  sales_web_application
 ---
 
 
-Over the past 5 days, I took on a coding challenge where I needed to create a sales web application using Django REST Framework. My only Python experience was a college semester's worth of introductory Python, but I felt confident about learning Django thanks to the Ruby on Rails and Javascript background that I have acquired throughout my time at Flatiron School. It was also very exciting at the same time, since building out a full project is the one of the best ways for me to learn a new language/framework!
+Over the past 5 days, I took on a coding challenge where I needed to create a sales web application using Django REST Framework. My Python experience only consists of college semester's worth of introductory Python, but I felt confident about learning Django thanks to the Ruby on Rails and Javascript background that I have acquired throughout my time at Flatiron School. It was also very exciting at the same time, since building out a full project is the one of the best ways for me to learn a new language/framework!
 
 I approached this project with a familiar approach that I practiced all throughout Flatiron School ever since the first week of the program - Test Driven Development.
 
