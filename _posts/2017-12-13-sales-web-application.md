@@ -61,8 +61,8 @@ While working through this project, I came across difficulties with adding and r
 
 I tried writing functions to achieve this approach, but encountered errors regarding the inability to directly write over specific fields. The error messages suggested I use methods such as `.get()` and `.set()`.
 
-- CONCLUSION
+- CONCLUSION AND FUTURE GOALS
 
-Overall, this was a great learning experience. I enjoyed building out the app from scratch. This enabled me to learn more about the building blocks of Django as the project was forming. I still need to work on learning more of Django methods, since it seems like there are a lot available that help streamline development. 
+Overall, this was a great learning experience. I enjoyed building out the app from scratch. This enabled me to learn more about the building blocks of Django as the project was forming. I still need to work on learning more of Django methods, since it seems like there are a lot available that help streamline development. My next goal is to learn more about user authorization and authentication in Django. While looking up resources, I found out that Django and Django REST framework excels in this area. I would love to add it as the one of the next features to this app.
 
 The end result can be found [here](https://github.com/krishl/sales_api).
