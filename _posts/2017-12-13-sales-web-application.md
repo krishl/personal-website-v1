@@ -63,6 +63,6 @@ I tried writing functions to achieve this approach, but encountered errors regar
 
 - CONCLUSION AND FUTURE GOALS
 
-Overall, this was a great learning experience. I enjoyed building out the app from scratch. This enabled me to learn more about the building blocks of Django as the project was forming. I still need to work on learning more of Django methods, since it seems like there are a lot available that help streamline development. My next goal is to learn more about user authorization and authentication in Django. While looking up resources, I found out that Django and Django REST framework excels in this area. I would love to add it as the one of the next features to this project.
+Overall, this was a great learning experience. I enjoyed building out the app from scratch. This enabled me to learn more about the building blocks of Django as the project was forming. I still need to work on learning more of Django methods, since it seems like there are a lot available that help streamline development. My next goal is to learn more about user authorization and authentication in Django. While reading through Django resources, I found out that Django and Django REST framework excels in this area. I would love to add it as the one of the next features to this project.
 
 The end result can be found [here](https://github.com/krishl/sales_api).
