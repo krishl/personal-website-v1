@@ -39,7 +39,17 @@ I used `ListCreateAPIView` and `RetrieveUpdateDestroyAPIView` from the generic v
 
 - DEFINING THE URL ENDPOINTS
 
-I defined the URL endpoints inside my app's `urls.py`, giving each endpoint a name so that tests are able to access it. Lastly, I added the urls.py file onto the main project's urls.py file.
+I defined the URL endpoints inside my app's `urls.py`, giving each endpoint a name so that tests are able to access it. Lastly, I added the urls.py file onto the main project's urls.py file. Here is a list of all of my endpoints:
+
+```
+/customers/
+/customers/1/
+/customers/1/cart
+/products/
+/products/1
+/carts/
+/carts/1
+```
 
 - CHALLENGES FACED
 
