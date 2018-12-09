@@ -5,8 +5,6 @@ date:       2018-12-08 11:40:48 -0400
 permalink:  javascript_drum_kit_notes
 ---
 
-# JavaScript Drum Kit Notes and Additional Findings
-
 I recently worked through the first video of Wes Bos's Javascript 30 series. The key topics of this video covered: keypress events, playing audio, listening for `transitionend` event, and `animationend` event.
 
 1. Each `keypress` event has a corresponding `keycode` that is associated with that key
