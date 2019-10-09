@@ -5,7 +5,7 @@ email: krishel.lasam@gmail.com
 copyright_name: krishl
 description: > # this means to ignore newlines until "baseurl:"
   ruby on rails // javascript // photoshop // and more
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/v1" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  krishl
 learn_profile: krishl
